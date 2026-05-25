@@ -149,7 +149,7 @@ function Employee() {
                             <input
                                 type="number"
                                 name="salary"
-                                placeholder="Enter Salary"
+                                placeholder="Enter Amount"
                                 value={emp.salary}
                                 onChange={handleChange}
                                 className="form-control mb-3"
