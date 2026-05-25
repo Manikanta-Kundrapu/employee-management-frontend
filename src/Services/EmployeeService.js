@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // BACKEND API URL
-const BASE_URL = "https://employee-management-backend-1.onrender.com/employees";
+const BASE_URL = "https://emplyee-management-backend.onrender.com/employees";
 
 class EmployeeService {
 
