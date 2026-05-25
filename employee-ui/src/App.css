@@ -1,0 +1,98 @@
+body {
+  background-color: #f4f6f9;
+  font-family: Arial, sans-serif;
+}
+
+/* MAIN APP */
+
+.App {
+  min-height: 100vh;
+}
+
+/* PAGE TITLE */
+
+h1 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+/* CARD STYLING */
+
+.card {
+  border: none;
+  border-radius: 12px;
+}
+
+/* FORM INPUTS */
+
+input.form-control {
+  height: 45px;
+  border-radius: 8px;
+}
+
+/* BUTTONS */
+
+button {
+  border-radius: 8px !important;
+  font-weight: 500;
+}
+
+/* TABLE */
+
+.table {
+  margin-top: 10px;
+}
+
+.table th {
+  vertical-align: middle;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+/* SEARCH BAR */
+
+.search-box {
+  margin-bottom: 15px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-4,
+  .col-md-8 {
+    width: 100%;
+  }
+}
+
+/* LOADING TEXT */
+
+.loading-text {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+/* EMPTY MESSAGE */
+
+.empty-text {
+  color: gray;
+  font-style: italic;
+}
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+.table {
+  overflow: hidden;
+  border-radius: 10px;
+}
+.btn:hover {
+  transform: scale(1.03);
+  transition: 0.2s;
+}
